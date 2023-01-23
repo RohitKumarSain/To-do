@@ -23,7 +23,11 @@ h1{
 }
 
 #todo-list{
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px auto;
+
 }
 
 #todo-input{
@@ -107,4 +111,33 @@ h1{
     margin: 30px auto;
     width: 85%;
     border-radius: 10px;
+}
+
+li {
+    list-style: none; 
+    padding: 15px;
+    margin-bottom: 10px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px #ccc; 
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px; 
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    transition: all 0.2s ease-in-out; 
+}
+
+.delete-btn:before {
+    content: "\2715"; 
+    font-size: 10px; 
 }
