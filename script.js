@@ -1,7 +1,7 @@
 function addTask() {
   var input = document.getElementById("todo-input").value;
   if (input === "") {
-    alert("Please enter a task!");
+    alert("Please Enter Your To-Do");
     return;
   }
   var list = document.getElementById("list");
