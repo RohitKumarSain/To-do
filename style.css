@@ -17,8 +17,9 @@ h1{
 }
 
 .container{
-    padding: 0 5%;
+    max-width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 #todo-list{
@@ -26,24 +27,25 @@ h1{
 }
 
 #todo-input{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     padding: 10px;
     font-size: 2rem;
     border: none;
+    border-radius: 10px;
     width: 60%;
 }
 
-#add-button{
+
+
+#add-button {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     background-image: linear-gradient(#16222A 0%, #3A6073 51%, #16222A 100%);
     border: none;
     margin-left: 10px;
     width: 10%;
     font-size: 150%;
-
-}
-
-#add-button {
-    width: 220px;
-    height: 50px;
+    width: 100px;
+    height: 68px;
     border: none;
     outline: none;
     color: #fff;
@@ -99,4 +101,10 @@ h1{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+#list{
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 10px;
 }
