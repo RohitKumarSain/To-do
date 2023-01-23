@@ -6,7 +6,9 @@ function addTask() {
   }
   var list = document.getElementById("list");
   var item = document.createElement("li");
-  item.innerHTML = input + ' <button onclick="deleteTask(this)">X</button>';
+  item.innerHTML =
+    input +
+    ' <button class="delete-btn" onclick="deleteTask(this)">X</button>';
   list.appendChild(item);
   document.getElementById("todo-input").value = "";
 }
