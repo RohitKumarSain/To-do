@@ -8,7 +8,7 @@ function addTask() {
   var item = document.createElement("li");
   item.innerHTML =
     input +
-    ' <button class="delete-btn" onclick="deleteTask(this)">X</button>';
+    ' <button class="delete-btn" onclick="deleteTask(this)"></button>';
   list.appendChild(item);
   document.getElementById("todo-input").value = "";
 }
