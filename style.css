@@ -139,6 +139,6 @@ li {
 }
 
 .delete-btn:before {
-    content: "\2715"; 
+    content: ""; 
     font-size: 10px; 
 }
